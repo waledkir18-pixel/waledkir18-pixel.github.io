@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut SMP | الموقع الرسمي</title>
+    <style>
+        :root {
+            --primary-color: #ff4d4d;
+            --bg-color: #1a1a1a;
+            --card-bg: #2d2d2d;
+            --text-color: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            border: 2px solid var(--primary-color);
+        }
+        h1 { color: var(--primary-color); margin-bottom: 0.5rem; }
+        p { color: #aaa; margin-bottom: 2rem; }
+        .info-box {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            text-align: right;
+            border-right: 5px solid var(--primary-color);
+            position: relative;
+        }
+        .info-label { font-size: 0.8rem; color: var(--primary-color); display: block; }
+        .info-value { font-size: 1.1rem; font-family: monospace; letter-spacing: 1px; }
+        .copy-btn {
+            background: var(--primary-color);
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.7rem;
+            float: left;
+        }
+        .staff-section {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #444;
+        }
+        .badge {
+            background: #ff9800;
+            color: black;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🍩 DONUT SMP</h1>
+        <p>مرحباً بك في سيرفر المغامرة الأسطوري</p>
+
+        <div class="info-box">
+            <span class="info-label">عنوان الآيبي (IP)</span>
+            <span class="info-value" id="ip">arabsmpp.aternos.me</span>
+        </div>
+
+        <div class="info-box">
+            <span class="info-label">البورت (Port)</span>
+            <span class="info-value">13547</span>
+        </div>
+
+        <div class="staff-section">
+            <span class="badge">حساب تشغيل السيرفر (Aternos)</span>
+            <div class="info-box" style="margin-top:10px; border-right-color: #ff9800;">
+                <span class="info-label">اسم المستخدم</span>
+                <span class="info-value">arabsmp_staff</span>
+            </div>
+            <div class="info-box" style="border-right-color: #ff9800;">
+                <span class="info-label">كلمة المرور</span>
+                <span class="info-value">Ts-M.C8dWUYNxqG</span>
+            </div>
+        </div>
+
+        <small style="color: #666;">* ملاحظة: الحساب المشترك للتشغيل فقط، الرجاء عدم محاولة تغيير البيانات.</small>
+    </div>
+
+</body>
+</html>
